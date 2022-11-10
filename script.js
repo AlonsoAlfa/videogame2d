@@ -287,7 +287,7 @@ window.addEventListener("load", function(){
             this.score = 0;
             this.winningScore = 10;
             this.gameTime = 0;
-            this.timeLimit = 15000;
+            this.timeLimit = 100000;
             this.speed = 1;
             this.debug = false;
         }
