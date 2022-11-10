@@ -241,23 +241,23 @@ window.addEventListener("load", function(){
                 context.fillRect(20 + 5*i,50,3,20);
             }
             const formattedTime = (this.game.gameTime*0.001).toFixed(1);
-            context.fillText("Timer: " + formattedTime, 20, 100);
+            context.fillText("Tiempo: " + formattedTime, 20, 100);
             if (this.game.gameOver) {
                 context.textAlign = "center";
                 let message1;
                 let message2;
                 if (this.game.score > this.game.winningScore) {
-                    message1 = "You won";
-                    message2 = "Well done";
+                    message1 = "Ganaste";
+                    message2 = "Eres el mejor ";
                 } else {
-                    message1 = "You lost";
-                    message2 = "Try again! :(";
+                    message1 = "Perdiste";
+                    message2 = "Intentalo, No te rindas!";
                 }
-                context.font = "50px " + this.fontFamily;
+                context.font = "70px " + this.fontFamily;
                 context.fillText(   message1, 
                                     this.game.width*0.5, 
                                     this.game.height*0.5-20);
-                context.font = "25px " + this.fontFamily;
+                context.font = "40px " + this.fontFamily;
                 context.fillText(   message2,
                                     this.game.width*0.5,
                                     this.game.height*0.5+20);
