@@ -50,7 +50,7 @@ window.addEventListener("load", function(){
         }
 
         draw(context){
-            context.fillStyle = "yellow";
+            context.fillStyle = "blue";
             context.fillRect(this.x, this.y, this.width, this.height);
         }
 
