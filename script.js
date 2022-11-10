@@ -37,8 +37,8 @@ window.addEventListener("load", function(){
             this.x = x;
             this.y = y;
             this.width = 10; 
-            this.height = 3;
-            this.speed = 3;
+            this.height = 5;
+            this.speed = 7;
             this.markedForDeletion = false;
         }
 
