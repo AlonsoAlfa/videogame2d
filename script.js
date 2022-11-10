@@ -156,7 +156,7 @@ window.addEventListener("load", function(){
                                 this.x, this.y,
                                 this.width, this.height
                                 );
-            context.font = "20px Helvetica";
+            context.font = "40px Helvetica";
             context.fillText(this.lives, this.x, this.y);
         }
     }
