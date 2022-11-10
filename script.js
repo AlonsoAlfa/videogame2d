@@ -128,11 +128,11 @@ window.addEventListener("load", function(){
             this.x = this.game.width;
             this.speedX = Math.random()*-1.5-0.5;
             this.markedForDeletion = false;
-            this.lives = 5;
+            this.lives = 10;
             this.score = this.lives;
             this.frameX = 0;
             this.frameY = 0;
-            this.maxFrame = 37;
+            this.maxFrame = 20;
         }
 
         update(){
@@ -225,7 +225,7 @@ window.addEventListener("load", function(){
         constructor(game){
             this.game = game;
             this.fontSize = 25;
-            this.fontFamily = "Helvetica";
+            this.fontFamily = "Comic";
             this.color = "white";
         }
 
