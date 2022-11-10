@@ -3,7 +3,7 @@ window.addEventListener("load", function(){
     const canvas = document.getElementById("canvas-1");
     const ctx =  canvas.getContext("2d");
 
-    canvas.width = 500;
+    canvas.width = 1000;
     canvas.height = 500;
 
     class InputHandler{
@@ -45,7 +45,7 @@ window.addEventListener("load", function(){
         update(){
             this.x += this.speed;
             if (this.x > this.game.width * 0.8) {
-                this.markedForDeletion = true;
+                this.markedForDeletion = true;    
             }
         }
 
