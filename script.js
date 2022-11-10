@@ -278,8 +278,8 @@ window.addEventListener("load", function(){
             this.keys = [];
             this.ammo = 20;
             this.ammoTimer = 0;
-            this.ammoInterval = 500;
-            this.maxAmmo = 50;
+            this.ammoInterval = 1500;
+            this.maxAmmo = 100;
             this.enemies = [];
             this.enemiesTimer = 0;
             this.enemiesInterval = 1000;
